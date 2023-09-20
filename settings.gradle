@@ -1,4 +1,6 @@
 rootProject.name = 'TransactionPOC'
 include 'IdempotencyApplication'
+project(':IdempotencyApplication').projectDir = new File(settingsDir, '../IdempotencyApplication')
+
 
 
